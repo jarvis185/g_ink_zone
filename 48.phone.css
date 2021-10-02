@@ -1,0 +1,101 @@
+*{
+    /* border:2px solid red; */
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#navbar ul li a {
+    font-size: 0.7rem;
+    margin-bottom:2px;
+    padding:3px;
+}
+#navbar::before{
+   opacity: 1; 
+}
+#logo img{
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    margin: 5px;
+}
+#navbar ul li{
+    margin:0px;
+    padding:0px 2px;
+}
+
+#home h1{
+    font-size: 1rem;
+}
+#home p{
+    font-size: 0.6rem;
+    
+}
+
+#home::before{
+    height:110%;
+}
+.bttn{
+    padding:5px 15px;
+    margin:20px 20px;
+    color:rgb(255, 255, 255);
+    font-size:0.8rem
+    
+}
+#content{
+    /* margin-top:40px;     */
+}
+#content .cit{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+}
+
+#appoint span{
+    min-width:17rem;
+    
+    font-size: 1.2rem;
+}
+#appoint input{
+    font-size: 1.2rem;
+}
+#appoint select{
+    font-size: 1.2rem;
+}
+.tag {
+    font-size: 5rem;
+}
+.tag2{
+    font-size: 5rem;
+}
+.divv {
+    font-size: 1.4rem;
+   
+}
+.para{
+    padding: 2rem;
+    align-items: center;
+    height: 35rem;
+    width: 100%;
+}
+.ll{
+    display: none;
+}
+.iboxx{
+    width:15rem;
+    height: 15rem;
+}
+.iboxx img{
+    width:15rem;
+    height: 15rem;
+}
+#content3{
+    padding:5rem 1rem;
+}
+#boutus2 h1 {
+    margin-top: 6rem;
+}

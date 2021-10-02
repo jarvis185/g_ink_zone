@@ -1,0 +1,748 @@
+/* CSS Reset */
+ *{
+    margin:0px;
+    padding:0px;
+    transition:all 0.2s ease-in-out;
+    /* border:2px solid red; */
+ }
+@font-face {
+    font-family: myFirstFont;
+    src: url(Rubber.ttf);
+}
+@font-face {
+    font-family: myFourthFont;
+    src: url(She-Stole-the-Night.ttf);
+}
+@font-face {
+    font-family: mythirdFont;
+    src: url(NEON____.TTF);
+}
+@font-face {
+    font-family: myfourthFont;
+    src: url(mexcellent\ rg.otf);
+}
+@font-face {
+    font-family: myFifthFont;
+    src: url(Bock_Personaluse.otf);
+}
+@font-face {
+    font-family: mySixthFont;
+    src: url(AirstreamNF.ttf);
+}
+@font-face {
+    font-family: mySeventhFont;
+    src: url(Cookie\ Cutter\ Culture.otf);
+}
+@font-face {
+    font-family: myEighthFont;
+    src: url(space\ age.ttf);
+}
+#preloader{
+    height:100vh;
+    width:100%;
+    background-color: black;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:100;
+    transition:all 0.2s ease-in-out ;
+    
+}
+.pppp{
+    animation-name:anks100;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+ }
+@keyframes anks100 {
+    0% {
+        transform: scale(2);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(2);
+    }
+}
+#logo2{
+    padding:2rem; 
+    animation-name:anks2;
+    animation-duration: 15s;
+    border-radius:50px;
+    animation-iteration-count: infinite;
+}
+
+body{
+    background-color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height:50px;
+}
+.inner a{
+    color:rgb(115, 255, 255);
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+}
+.inner a:hover{
+    color:cyan;
+}
+
+#navbar{
+    display:flex;
+    position:Fixed;
+    justify-content:space-between;
+    width:100%;
+    top:0;
+    z-index: 1;   
+}
+#navbar::before{
+    content:"";
+    background-color: #000000cb;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;    
+}
+#content::before{
+    content:"";
+    background-color: #000000;
+    /* background: url("wallpaperflare.com_wallpaper\ \(1\).jpg") no-repeat center center/cover; */
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    /* opacity:0.6; */
+}
+
+/* navbar logo and image */
+#logo{
+    margin:0px 20px;
+    padding:0px 10px;
+    display:flex;
+}
+.tg{
+    font-family: mySixthFont;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow:   0px 0px 6px #0066ff, 0px 0px 8px #00a1ff, 0px 0px 10px #00adff;
+}
+.tg img{
+    width: 2.5rem;
+    height:2.5rem;
+    margin-right: 0.5rem;
+}
+
+#navbar ul{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+#navbar ul li{
+
+    list-style:none;
+    font-size:1.2rem;
+    margin:0px 8px;
+    padding:6px 2px;
+    
+}
+#navbar ul li a{
+    color:#cbfffa;
+    display:block;
+    padding:8px;
+    text-decoration: none;
+    text-shadow: 0px 0px 16px #00ffe7,0px 0px 26px #00ffe7,0px 0px 36px #00ffe7;
+    font-family: 'myFirstFont';
+    
+    
+}
+#navbar ul li a:hover{
+    /* background-color: rgb(121, 117, 117); */
+    color:rgb(245, 198, 252);
+    text-shadow: 0px 0px 16px rgb(226, 10, 255),0px 0px 26px rgb(226, 10, 255),0px 0px 36px rgb(226, 10, 255);
+    /* transition:all 0.1s ease-in; */
+
+    /* border-radius:30px; */
+    /* display:block; */
+    /* padding:8px; */
+    text-decoration: none;
+    
+    
+}
+.pp{
+    margin-top: 10rem;
+}
+.col-4{
+    width:100%;
+}
+
+
+/* Home section */
+#home{
+    display:flex;
+    flex-direction: column;
+    /* padding:10px 20px; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    background:url("wallpaperflare.com_wallpaper\ \(2\).jpg") no-repeat center fixed ;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+}
+#home2{
+    display:flex;
+    flex-direction: column;
+    /* padding:10px 20px; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    background:url("wallpaperflare.com_wallpaper\ \(2\).jpg") no-repeat center fixed ;
+    background-size: cover;
+    width:100%;
+}
+#links{
+    display:flex;
+    flex-direction: column;
+    /* padding:10px 20px;  */
+    justify-content: space-between;
+    /* align-items: center;
+    text-align: center; */
+    background:url("wallpaperflare.com_wallpaper\ \(2\).jpg") no-repeat center fixed ;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+}
+.tg3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tg3 img{
+    width:10rem;
+    height:auto;
+    margin-top: 10rem;
+}
+.tg4 img{
+    width:10rem;
+    height:auto;
+}
+.tg5 img{
+    width:10rem;
+    height:auto;
+}
+.tg4{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top:10rem
+}
+
+#appoint{
+    padding:5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("wallpaperflare.com_wallpaper\ \(3\).jpg") no-repeat center center/cover;
+}
+
+#appoint form{
+    /* width:60%; */
+    height:auto;
+    
+    font-family:myEighthFont;    
+}
+#appoint span{
+    height:3rem;
+    min-width:21rem;
+    margin-right:1rem;
+    border-radius:10px;
+    background-color: #000000cc;
+    color: white;
+    text-shadow: 0px 0px 6px #0066ff, 0px 0px 8px #00a1ff, 0px 0px 10px #00adff;
+    animation-name:anks4;
+    font-size: 1.5rem;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition:all 0.1s ease-in 0s;
+}
+@keyframes anks4 {
+     0%    {  border:2px solid  rgb(0, 0, 61);}
+    10%   {   border:2px solid  rgb(91, 0, 165);}
+    20%   {   border:2px solid  rgb(153, 0, 255);}
+    50%  {    border:2px solid rgb(0, 255, 115);}
+    40%  {    border:2px solid rgb(115, 255, 0);}
+    60%  {    border:2px solid rgb(251, 255, 0);}
+    70%  {    border:2px solid  rgb(255, 94, 1);}
+    80%  {    border:2px solid  rgb(255, 0, 140);}
+    90%  {    border:2px solid  rgb(183, 0, 255);}
+    100%  {   border:2px solid rgb(29, 16, 145);}
+}
+@keyframes anks5 {
+     0%    {  background-color:   rgb(0, 0, 61);}
+    10%   {   background-color:   rgb(91, 0, 165);}
+    20%   {   background-color:   rgb(153, 0, 255);}
+    50%  {    background-color:  rgb(0, 255, 115);}
+    40%  {    background-color:  rgb(115, 255, 0);}
+    60%  {    background-color:  rgb(251, 255, 0);}
+    70%  {    background-color:   rgb(255, 94, 1);}
+    80%  {    background-color:   rgb(255, 0, 140);}
+    90%  {    background-color:   rgb(183, 0, 255);}
+    100%  {   background-color:  rgb(29, 16, 145);}
+}
+#appoint input{
+    border-radius: 10px;
+    background-color: #000000c7;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 6px #0066ff, 0px 0px 8px #00a1ff, 0px 0px 10px #00adff;
+    animation-name:anks4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition:all 0.1s ease-in 0s;
+}
+#appoint select{
+    border-radius: 10px;
+    background-color: #000000c5;
+    color: white;
+    text-shadow: 0px 0px 6px #0066ff, 0px 0px 8px #00a1ff, 0px 0px 10px #00adff;
+    animation-name:anks4;
+    font-size: 1.5rem;
+    animation-iteration-count: infinite;
+
+    animation-duration: 10s;
+    transition:all 0.1s ease-in 0s;
+}
+.btnn{
+    border:0;
+    color: rgba(255, 255, 255, 0.774);
+    height:3rem;
+    width:15rem;
+    font-size:3rem;
+    margin-right:1rem;
+    background: transparent;
+    text-shadow: 0px 0px 6px #0066ff, 0px 0px 8px #00a1ff, 0px 0px 10px #00adff;
+    transition:all 0.1s ease-in 0s;
+}
+.soc{
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+.id2{
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: mySixthFont;
+}
+.id2 img{
+    height:2rem;
+    width:2rem;
+}
+.head{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: auto;
+    align-items: center;
+    text-align: center;
+}
+.head h1{
+    font-size: 7rem;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-top:5rem;
+    font-family: 'myFourthFont';
+}
+
+.tg2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid red; */
+    height: 100vh;
+}
+.tg3{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* border:2px solid red; */
+    /* height: 100vh; */
+}
+
+
+.tag{
+    font-size:10rem;
+    color:rgb(255, 255, 255);
+    font-family: mythirdFont;
+    text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+    animation-name:anks;
+    animation-duration: 10s;
+    transition:all 0.1s ease-in-out 0s;
+    animation-iteration-count: infinite;
+    position:fixed;
+}
+.tag2{
+    font-size:10rem;
+    color:rgb(255, 255, 255);
+    font-family: mythirdFont;
+    text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+    animation-name:anks;
+    animation-duration: 10s;
+    transition:all 0.1s ease-in-out 0s;
+    animation-iteration-count: infinite;
+    position:fixed;
+    top:40%;
+}
+@keyframes anks {
+    0%    {    text-shadow: 0 0 10px rgb(0, 0, 61), 0 0 20px rgb(0, 0, 61), 0 0 30px rgb(0, 0, 61), 0 0 40px rgb(0, 0, 61), 0 0 50px rgb(0, 0, 61), 0 0 60px rgb(0, 0, 61), 0 0 70px rgb(0, 0, 61);}
+    10%   {    text-shadow: 0 0 10px rgb(91, 0, 165), 0 0 20px rgb(91, 0, 165), 0 0 30px rgb(91, 0, 165), 0 0 40px rgb(91, 0, 165), 0 0 50px rgb(91, 0, 165), 0 0 60px rgb(91, 0, 165), 0 0 70px rgb(91, 0, 165);}
+    20%   {    text-shadow: 0 0 10px rgb(153, 0, 255), 0 0 20px rgb(153, 0, 255), 0 0 30px rgb(153, 0, 255), 0 0 40px rgb(153, 0, 255), 0 0 50px rgb(153, 0, 255), 0 0 60px rgb(153, 0, 255), 0 0 70px rgb(153, 0, 255);}
+    30%  {    text-shadow: 0 0 10px rgb(1, 99, 94), 0 0 20px rgb(1, 99, 94), 0 0 30px rgb(1, 99, 94), 0 0 40px rgb(1, 99, 94), 0 0 50px rgb(1, 99, 94), 0 0 60px rgb(1, 99, 94), 0 0 70px rgb(1, 99, 94);}
+    50%  {    text-shadow: 0 0 10px rgb(0, 255, 115), 0 0 20px rgb(0, 255, 115), 0 0 30px rgb(0, 255, 115), 0 0 40px rgb(0, 255, 115), 0 0 50px rgb(0, 255, 115), 0 0 60px rgb(0, 255, 115), 0 0 70px rgb(0, 255, 115);}
+    40%  {    text-shadow: 0 0 10px rgb(115, 255, 0), 0 0 20px rgb(115, 255, 0), 0 0 30px rgb(115, 255, 0), 0 0 40px rgb(115, 255, 0), 0 0 50px rgb(115, 255, 0), 0 0 60px rgb(115, 255, 0), 0 0 70px rgb(115, 255, 0);}
+    60%  {    text-shadow: 0 0 10px rgb(251, 255, 0), 0 0 20px rgb(251, 255, 0), 0 0 30px rgb(251, 255, 0), 0 0 40px rgb(251, 255, 0), 0 0 50px rgb(251, 255, 0), 0 0 60px rgb(251, 255, 0), 0 0 70px rgb(251, 255, 0);}
+    70%  {    text-shadow: 0 0 10px rgb(255, 94, 1), 0 0 20px rgb(255, 94, 1), 0 0 30px rgb(255, 94, 1), 0 0 40px rgb(255, 94, 1), 0 0 50px rgb(255, 94, 1), 0 0 60px rgb(255, 94, 1), 0 0 70px rgb(255, 94, 1);}
+    80%  {    text-shadow: 0 0 10px rgb(255, 0, 140), 0 0 20px rgb(255, 0, 140), 0 0 30px rgb(255, 0, 140), 0 0 40px rgb(255, 0, 140), 0 0 50px rgb(255, 0, 140), 0 0 60px rgb(255, 0, 140), 0 0 70px rgb(255, 0, 140);}
+    90%  {    text-shadow: 0 0 10px rgb(183, 0, 255), 0 0 20px rgb(183, 0, 255), 0 0 30px rgb(183, 0, 255), 0 0 40px rgb(183, 0, 255), 0 0 50px rgb(183, 0, 255), 0 0 60px rgb(183, 0, 255), 0 0 70px rgb(183, 0, 255);}
+    100%  {    text-shadow: 0 0 10px rgb(29, 16, 145), 0 0 20px rgb(29, 16, 145), 0 0 30px rgb(29, 16, 145), 0 0 40px rgb(29, 16, 145), 0 0 50px rgb(29, 16, 145), 0 0 60px rgb(29, 16, 145), 0 0 70px rgb(29, 16, 145);}
+}
+/* utility classes */
+
+
+#primary{
+    font-size: 1.8rem;
+    width:100%;
+    text-align: center;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:myFifthFont;
+    align-items: center;
+    background:url("wallpaperflare.com_wallpaper\ \(4\).jpg") no-repeat center center/cover;
+}
+#primary4{
+    font-size: 1.8rem;
+    width:100%;
+    text-align: center;
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:myFifthFont;
+    align-items: center;
+    background:url("wallpaperflare.com_wallpaper\ \(4\).jpg") no-repeat center center/cover;
+}
+.emai{
+    font-family: mySixthFont;
+}
+
+.imbox{
+    /* padding:5rem 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.iboxx{
+    border-radius:10px;
+    width:25rem;
+    height: 25rem;
+    overflow: hidden;
+    margin:1rem;
+    animation-name:anks4;
+    animation-duration: 10s;
+    box-shadow: 0px 0px 30px 4px rgb(10 36 45);
+        animation-iteration-count: infinite;
+}
+.iboxx img{
+    width:25rem;
+    height: 25rem;
+}
+#primary2{
+    font-size: 1.8rem;
+    width:100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:myFifthFont;
+    align-items: center;
+    background:url("wallpaperflare.com_wallpaper\ \(4\).jpg") no-repeat center center/cover;
+}
+
+.bb{
+    display: flex;
+}
+.bttn{
+    padding:5px 15px;
+    margin:20px 20px;
+    background-color: rgb(64, 248, 233);
+    color:rgb(0, 2, 150);
+    border-radius:5px;
+    font-size: 1.5rem;
+    outline: none;
+    box-shadow: 4px 4px 20px rgb(255, 255, 255),inset 2px 2px 50px rgb(0, 255, 213);
+    font-family: 'myFourthFont';
+}
+.bttn:hover{
+    padding:5px 15px;
+    margin:20px 20px;
+    background-color: rgb(5, 5, 5);
+    color:rgb(255, 255, 255);
+    transition:all 0.1s ease-in-out 0s;
+
+}
+
+
+
+/* services */
+#content{
+    display:flex;
+    flex-direction: column;
+    /* position:absolute; */
+    /* border:2px solid red; */
+    /* margin:40px; */
+    justify-content:center;
+    height:auto;
+    width:100%; 
+    
+}
+#content h1 {
+    font-size: 5rem;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'myFifthFont';
+    margin-top: 5rem;
+}
+
+#boutus{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    /* border:2px solid red; */
+    /* margin:40px; */
+    justify-content:center;
+    background-color: black;
+    height:auto;
+    width:100%; 
+    
+}
+#boutus h1 {
+    font-size: 5rem;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'myFifthFont';
+    margin-top: 5rem;
+}
+#boutus2{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    /* border:2px solid red; */
+    /* margin:40px; */
+    justify-content:center;
+    /* background-color: black; */
+    height:auto;
+    width:100%; 
+    
+}
+.tg5
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15rem;
+    }
+#boutus2 h1 {
+    font-size: 5rem;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'myFifthFont';
+    margin-top: 5rem;
+}
+#content3{
+    padding:5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:url("1112.jpg") no-repeat center center/cover; */
+    /* height: 100vh; */
+    margin-top:10rem;
+}
+/* #boutus::before{
+    content:""; 
+    background: url("wallpaperflare.com_wallpaper\ \(1\).jpg") no-repeat center center/cover;
+    background-color: black;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+} */
+.imag{
+    background: url("wallpaperflare.com_wallpaper\ \(1\).jpg") no-repeat center center/cover;
+}
+.imag img{
+    height: 32rem;
+    padding: 2rem;
+    width: 100%;
+}
+.para{
+    padding:4rem;
+    align-items:center;
+    height:40rem;
+    width: 100%;
+}
+.divv{
+    height:100%;
+    width:100%;
+    font-family: mySeventhFont;
+    font-size:2rem;
+    color: rgb(235, 152, 97);
+    text-align: center;
+    word-spacing: 10px;
+    background-color: black;
+}
+.hd{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+#content .box{
+    
+    position:relative;
+    display:flex;
+    overflow: hidden;
+    flex-direction: column;
+    height:23rem;
+    background-color: #000000;
+    /* flex-shrink: initial; */
+    /* width:29%; */
+    border: 5px solid rgb(255 0 0);
+    color:rgb(255, 255, 255);
+    margin:30px;
+    /* padding:10px; */
+    /* border-radius: 20px; */
+    /* text-shadow: 4px 4px 4px rgb(196, 196, 196); */
+    /* box-shadow:10px 10px 6px rgba(255, 255, 255, 0.26); */
+    /* transition: all 0.4s ease 0s ; */
+    animation-name: anks2;
+    animation-duration: 10s;
+    transition:all 0.4s ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes anks2 {
+    0%    {    text-shadow: 0 0 10px rgb(0, 0, 61), 0 0 20px rgb(0, 0, 61), 0 0 30px rgb(0, 0, 61), 0 0 40px rgb(0, 0, 61), 0 0 50px rgb(0, 0, 61), 0 0 60px rgb(0, 0, 61), 0 0 70px rgb(0, 0, 61);border:5px solid rgb(0, 0, 61);}
+    10%   {    text-shadow: 0 0 10px rgb(91, 0, 165), 0 0 20px rgb(91, 0, 165), 0 0 30px rgb(91, 0, 165), 0 0 40px rgb(91, 0, 165), 0 0 50px rgb(91, 0, 165), 0 0 60px rgb(91, 0, 165), 0 0 70px rgb(91, 0, 165);border:5px solid rgb(91, 0, 165);}
+    20%   {    text-shadow: 0 0 10px rgb(153, 0, 255), 0 0 20px rgb(153, 0, 255), 0 0 30px rgb(153, 0, 255), 0 0 40px rgb(153, 0, 255), 0 0 50px rgb(153, 0, 255), 0 0 60px rgb(153, 0, 255), 0 0 70px rgb(153, 0, 255);border:5px solid rgb(153, 0, 255);}
+    30%  {    text-shadow: 0 0 10px rgb(1, 99, 94), 0 0 20px rgb(1, 99, 94), 0 0 30px rgb(1, 99, 94), 0 0 40px rgb(1, 99, 94), 0 0 50px rgb(1, 99, 94), 0 0 60px rgb(1, 99, 94), 0 0 70px rgb(1, 99, 94);border:5px solid rgb(1, 99, 94);}
+    50%  {    text-shadow: 0 0 10px rgb(0, 255, 115), 0 0 20px rgb(0, 255, 115), 0 0 30px rgb(0, 255, 115), 0 0 40px rgb(0, 255, 115), 0 0 50px rgb(0, 255, 115), 0 0 60px rgb(0, 255, 115), 0 0 70px rgb(0, 255, 115);border:5px solid rgb(0, 255, 115);}
+    40%  {    text-shadow: 0 0 10px rgb(115, 255, 0), 0 0 20px rgb(115, 255, 0), 0 0 30px rgb(115, 255, 0), 0 0 40px rgb(115, 255, 0), 0 0 50px rgb(115, 255, 0), 0 0 60px rgb(115, 255, 0), 0 0 70px rgb(115, 255, 0);border:5px solid rgb(115, 255, 0);}
+    60%  {    text-shadow: 0 0 10px rgb(251, 255, 0), 0 0 20px rgb(251, 255, 0), 0 0 30px rgb(251, 255, 0), 0 0 40px rgb(251, 255, 0), 0 0 50px rgb(251, 255, 0), 0 0 60px rgb(251, 255, 0), 0 0 70px rgb(251, 255, 0);border:5px solid rgb(251, 255, 0);}
+    70%  {    text-shadow: 0 0 10px rgb(255, 94, 1), 0 0 20px rgb(255, 94, 1), 0 0 30px rgb(255, 94, 1), 0 0 40px rgb(255, 94, 1), 0 0 50px rgb(255, 94, 1), 0 0 60px rgb(255, 94, 1), 0 0 70px rgb(255, 94, 1);border:5px solid rgb(255, 94, 1);}
+    80%  {    text-shadow: 0 0 10px rgb(255, 0, 140), 0 0 20px rgb(255, 0, 140), 0 0 30px rgb(255, 0, 140), 0 0 40px rgb(255, 0, 140), 0 0 50px rgb(255, 0, 140), 0 0 60px rgb(255, 0, 140), 0 0 70px rgb(255, 0, 140);border:5px solid rgb(255, 0, 140);}
+    90%  {    text-shadow: 0 0 10px rgb(183, 0, 255), 0 0 20px rgb(183, 0, 255), 0 0 30px rgb(183, 0, 255), 0 0 40px rgb(183, 0, 255), 0 0 50px rgb(183, 0, 255), 0 0 60px rgb(183, 0, 255), 0 0 70px rgb(183, 0, 255);border:5px solid rgb(183, 0, 255);}
+    100%  {    text-shadow: 0 0 10px rgb(29, 16, 145), 0 0 20px rgb(29, 16, 145), 0 0 30px rgb(29, 16, 145), 0 0 40px rgb(29, 16, 145), 0 0 50px rgb(29, 16, 145), 0 0 60px rgb(29, 16, 145), 0 0 70px rgb(29, 16, 145);border:5px solid rgb(29, 16, 145);}
+}
+
+#content .box:hover .inner{
+    visibility: visible;  
+    animation: anks3;
+    /* transition: all 0.2s ease-in-out ; */
+    animation-duration: 0.2s;
+}
+@keyframes anks3{
+    0% {left:100%;}
+    100% {left:0%;}
+}
+
+#content .cit{
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+}
+#content .box h3{
+    font-size: 2.4rem;    
+    color:rgb(255, 255, 255);
+    font-family: 'myFourthFont';
+    margin:0;
+    height:5rem;
+    width:100%;
+    /* padding:2px 5px; */
+    /* backface-visibility: hidden;
+    position: absolute; */
+}
+#content .box p{
+    font-size: 1rem;
+    color:rgb(255, 255, 255);
+    font-family: 'myFourthFont';
+}
+
+#content .cnt{
+    text-align: center;
+    /* transform-style: preserve-3d;
+    transition: all 1.2s ease; */
+}
+.cnt:hover{
+    /* transform: rotateX(180deg) */
+}
+#content .box img{
+    height:18rem;
+    width:100%;
+    /* border-top-left-radius:120px;
+    border-bottom-left-radius:15px; */
+    /* border-radius:15px; */
+    
+}
+.inner{
+    position:absolute;
+    top:0;
+    left:0;
+    height:23rem;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    color:aqua;
+    background-color: rgba(17, 0, 255, 0.568);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: myFifthFont;
+    font-size: 2rem;
+    text-shadow:none;
+}
+
+
+.txt{
+    border:2px solid black;
+    padding:2px;
+    margin:2px;
+}
+
+footer{
+    border:2px solid grey;
+    background-color: black;
+    color:white;
+    font-size:1.5rem;
+    align-items: center;
+    position:relative;
+    bottom:0px;
+    height: 3rem;
+    text-align: center;
+    font-family: mySixthFont;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    justify-content: center;
+}

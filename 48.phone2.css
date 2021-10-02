@@ -1,0 +1,64 @@
+.tag {
+    font-size: 3rem;
+}
+.tag2{
+    font-size: 3rem;
+}
+#content .box h3 {
+    font-size: 1.4rem;
+}
+.row>* {
+    
+    padding-right:0;
+}
+#content .box img {
+    height: 12rem;
+}
+#content .box {
+    height: 15rem;
+    margin: 20px;
+}
+.imag img {
+    height: 14rem;
+    padding: 10px 0;
+    width: 100%;
+}
+.divv {
+    font-size: 10px;
+    word-spacing:5px;
+}
+.hd {
+    font-size: 14px;
+    font-weight: bold;
+}
+.para {
+    padding: 10px;
+    height: 15rem;
+}
+#boutus2 h1 {
+    font-size: 4rem;
+}
+#appoint input{
+    width: 17rem;
+}
+#appoint select{
+    width:17rem;
+}
+.input-group{
+    flex-direction: column;
+}
+.iboxx{
+    width:9rem;
+    margin:0.5rem;
+    height:9rem;
+}
+.iboxx img{
+    width:9rem;
+    height: 9rem;
+}
+#content3{
+    padding:5rem 0rem;
+}
+#boutus2 h1 {
+    margin-top: 6rem;
+}
